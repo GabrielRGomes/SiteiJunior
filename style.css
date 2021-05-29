@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: fantasy;
+}
+
+.hero {
+    /* Sizing */
+    
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: #fbbe25; /* ADD THIS LINE */
+
+    
+    /* Background styles */
+    background-image: url(a\ bullet\ journal.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.hero h1 {
+    /* Text styles */
+    font-size: 6em;
+
+    border-bottom: 1em solid rgb(255, 255, 255); 
+    line-height: 1.2em;
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h3{
+    text-align: center;
+    margin: 5em;
+    padding-top: 1em;
+    font-size: 2 em;
+    padding-bottom: 2em;
+}
+
+p{
+    
+    font-size: 1.2em;
+}
+
+
+h2{
+    padding-bottom: 1em;
+
+    text-align: center;
+}
+
+.Video{
+    display: block;
+    margin: 0 auto;
+}
+
+iframe{
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
